@@ -1,0 +1,129 @@
+/* CSS Centering Code with the ID Selector "#center" */ 
+
+#center {
+  text-align: center;
+}
+  
+  /* Styling */
+  
+body {
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Lexend Deca', sans-serif; 
+  color: #2E475D;    
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*= input focus effects css
+=========================== */
+:focus{outline: none;}
+
+.col-3{float: left; width: 27.33%; margin: 40px 3%; position: relative;} /* necessary to give position: relative to parent. */
+input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+
+.effect-1, 
+.effect-2, 
+.effect-3{border: 0; padding: 7px 0; border-bottom: 1px solid #ccc;}
+
+.effect-1 ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+.effect-1:focus ~ .focus-border{width: 100%; transition: 0.4s;}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+input
+{
+    display: block;
+    margin-bottom: 1em;
+    width: 200%;
+    margin-top: 2em;
+    height: 2em;
+}
+
+#alertBox {
+	position: absolute;
+	top: 30%;
+	bottom: 60%;
+	left: 40%;
+	width: 20%;
+	height: 10%;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	z-index: 2;
+
+	text-align: center;
+	color: black;
+}
+
+#alertClose {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, .5);
+	width: 100%;
+	height: 100%;
+}
+
+button {
+  background-color: #494b49; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-self: center;
+  display: inline-block;
+  text-align: center;
+}
+
+div.top {
+  height: 2em;
+  margin-top: 2em;
+}
+
+button.submit {
+  background-color: #494b49; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-self: center;
+  display: inline-block;
+  text-align: center;
+}
+
+div.description {
+  margin-top: 2em;
+  text-align: left;
+  display: block;
+  width: 200px; /*based on how much width this div should have*/
+}
+
+code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
